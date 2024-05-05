@@ -1,5 +1,7 @@
 :root{
     --inputWidth: 200px;
+    --meterWidth: 200px;
+    --meterHeight: 25px;
 }
 
 .infoDiv{
@@ -20,4 +22,13 @@
 
 .infoDiv input{
     width: var(--inputWidth);
+}
+
+.infoDiv meter{
+    width: var(--meterWidth);
+    height: var(--meterHeight);
+}
+
+.textoDiv{
+    color:red;
 }

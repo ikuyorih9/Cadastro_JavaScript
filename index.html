@@ -10,27 +10,34 @@
 
     <body>
         <div class="infoDiv">
+            <h1>Cadastro de usuário</h1>
             <div>
-                Nome completo
-                <input type="text" id="inputNomeCompleto"></input>
-                <div id="textoNomeCompleto"></div>
+                Nome de usuário
+                <input type="text" id="inputNomeUsuario"></input>
             </div>
+            <div id="textoNomeUsuario" class="textoDiv"></div>
+
             <div>
                 Ano de Nascimento
                 <input type="number" id="inputAnoNascimento"></input>
-                <div id="textoAno"></div>
             </div>
+            <div id="textoAnoNascimento" class="textoDiv"></div>
+
             <div>
                 Email
                 <input type="text" id="inputEmail"></input>
-                <div id="textoEmail"></div>
             </div>
+            <div id="textoEmail" class="textoDiv"></div>
+
             <div>
                 Senha
                 <input type="password" id="inputSenha"></input>
-                <div id="textoSenha"></div>
             </div>
-            <button id="buttonEnviar">Enviar</button>
+            <div id="textoSenha" class="textoDiv"></div>
+            <meter id="indicadorForca" min="0" max="100" low="34" high="67" optimum="100"></meter>
+            <div id="textoForcaSenha" style="font-weight: bold;"></div>
+
+            <button id="buttonEnviar">Cadastrar</button>
         </div>
 
         <script src="script.js" defer></script>
