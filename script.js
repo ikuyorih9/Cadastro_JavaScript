@@ -49,12 +49,12 @@ function verificaAnoValido(inputAno){
     let ano = inputAno.target.value;
 
     console.log(ano);
-    if(ano >= 1900 && ano <=2022){
+    if(ano >= 1900 && ano <=2024){
         textoAnoNascimento.textContent="";
         anoValido = true;
         return;
     }
-    textoAnoNascimento.textContent = "O ano de nascimento deve estar entre 1900 e 2000.";
+    textoAnoNascimento.textContent = "O ano de nascimento deve estar entre 1900 e 2024.";
     anoValido = false;
     return;
 }
